@@ -4,7 +4,7 @@ using System.Linq;
 using System.Diagnostics;
 using System.Collections.Generic;
 
-namespace lab_2_3
+namespace bubble_sort
 {
     class MyThread
     {
@@ -130,12 +130,7 @@ namespace lab_2_3
             }
             sw.Stop();
             long time = sw.ElapsedMilliseconds;
-            //for(int i = 0; i<n; i++)
-            //{
-                //Console.Write(ans[i] + " ");
-           // }
             Console.WriteLine("time = " + time);
         }
     }
 }
-
