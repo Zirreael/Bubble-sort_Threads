@@ -3,7 +3,7 @@ using System.Threading;
 using System.Linq;
 using System.Diagnostics;
 
-namespace lab_2_3
+namespace bubble_sort
 {
     class MyThread
     {
